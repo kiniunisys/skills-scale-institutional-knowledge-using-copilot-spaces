@@ -1,7 +1,13 @@
 # OctoAcme Project Management Documentation
 
 ## Overview
-OctoAcme follows a structured, customer‑first project management approach that emphasizes iterative delivery, clear ownership, and data‑informed decisions. This docs folder is the central entry point for the project management guidance your team will use across project initiation, planning, execution, release, and continuous improvement.
+OctoAcme follows a structured, customer‑first project management approach that emphasizes iterative delivery, clear ownership, and data‑informed decisions. Projects move through Initiation, Planning, Execution, Release, and Retrospective stages, and the team uses lightweight artifacts (Project One‑pagers, backlogs, acceptance criteria, and a Risk Register) to keep work measurable and traceable.
+
+OctoAcme stages work to reduce risk and increase feedback frequency. Initiation validates the business need and success metrics; Planning breaks approved initiatives into shippable increments with estimates and a Definition of Done; Execution uses sprint backlogs, small PRs, CI checks, and QA to maintain quality; Release follows a pre‑release checklist (staging smoke tests, rollback plan, release notes); Retrospectives capture action items and drive continuous improvement.
+
+Roles and ownership are explicit: Product Managers define outcomes and success metrics, Project Managers coordinate delivery and communication, Developers implement and test features, and QA validates acceptance criteria. Communication is rhythmic (daily standups, weekly delivery syncs, sprint demos, and monthly stakeholder updates) with a tiered blocker escalation path that scales from team triage to sponsor‑level intervention for business‑impacting issues.
+
+Quality assurance combines automated and manual practices: unit and integration tests, end‑to‑end smoke tests for critical flows, security scanning in CI, and a PR workflow that requires small, documented changes with acceptance criteria and at least one approval before merging. Dashboards (velocity, burndown, errors, latency, usage) and the Risk Register make project health and trade‑offs visible.
 
 ## Documentation Index
 - [Project Management Overview](./octoacme-project-management-overview.md) - High‑level framework, principles, and lifecycle
